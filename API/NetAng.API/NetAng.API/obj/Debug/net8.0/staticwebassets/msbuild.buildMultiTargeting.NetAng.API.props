@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NetAng.API.props" />
+</Project>
