@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|solutionrelative:netang.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|d:\\projects\\.net\\netang\\api\\netang.api\\netang.api\\repositories\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|solutionrelative:netang.api\\repositories\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|d:\\projects\\.net\\netang\\api\\netang.api\\netang.api\\repositories\\implementation\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|solutionrelative:netang.api\\repositories\\implementation\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|d:\\projects\\.net\\netang\\api\\netang.api\\netang.api\\repositories\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|solutionrelative:netang.api\\repositories\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|d:\\projects\\.net\\netang\\api\\netang.api\\netang.api\\models\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,18 +78,17 @@
               "RelativeToolTip": "NetAng.API\\Models\\DTO\\UpdateCategoryRequestDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T14:57:03.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T14:57:03.893Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Repositories\\Interface\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "NetAng.API\\Repositories\\Interface\\ICategoryRepository.cs",
               "ToolTip": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Repositories\\Interface\\ICategoryRepository.cs",
               "RelativeToolTip": "NetAng.API\\Repositories\\Interface\\ICategoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T16:15:50.978Z",
               "EditorCaption": ""
@@ -104,8 +103,7 @@
               "RelativeToolTip": "NetAng.API\\Models\\DTO\\CategoryDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T16:08:16.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-11T16:08:16.723Z"
             },
             {
               "$type": "Document",
@@ -127,7 +125,7 @@
               "RelativeDocumentMoniker": "NetAng.API\\Controllers\\CategoriesController.cs",
               "ToolTip": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "NetAng.API\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGcAAAAgAAAA",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAkwHEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T15:59:17.103Z",
               "EditorCaption": ""
@@ -158,13 +156,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Repositories\\Implementation\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "NetAng.API\\Repositories\\Implementation\\CategoryRepository.cs",
               "ToolTip": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Repositories\\Implementation\\CategoryRepository.cs",
               "RelativeToolTip": "NetAng.API\\Repositories\\Implementation\\CategoryRepository.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAUwCwAAAAYAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAuwBoAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T16:16:51.514Z",
               "EditorCaption": ""

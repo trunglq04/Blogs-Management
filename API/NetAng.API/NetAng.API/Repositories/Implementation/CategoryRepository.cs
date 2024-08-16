@@ -21,6 +21,19 @@ namespace NetAng.API.Repositories.Implementation
             return category;
         }
 
+        public async Task<Category?> DeleteAsync(Guid id)
+        {
+            var existingCategory = await _context.Categories.FirstOrDefaultAsync(category => category.Id == id);
+            if (existingCategory is not null)
+            {
+                _context.Categories.Remove(existingCategory);
+                await _context.SaveChangesAsync();
+                return existingCategory;
+            }
+
+            return null;
+        }
+
         public async Task<IEnumerable<Category>> GetAllAsync()
         {
             return await _context.Categories.ToListAsync();
