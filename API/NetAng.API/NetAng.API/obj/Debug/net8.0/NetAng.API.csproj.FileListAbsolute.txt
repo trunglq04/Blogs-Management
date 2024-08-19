@@ -134,3 +134,4 @@ D:\Projects\.NET\NetAng\API\NetAng.API\NetAng.API\obj\Debug\net8.0\refint\NetAng
 D:\Projects\.NET\NetAng\API\NetAng.API\NetAng.API\obj\Debug\net8.0\NetAng.API.pdb
 D:\Projects\.NET\NetAng\API\NetAng.API\NetAng.API\obj\Debug\net8.0\NetAng.API.genruntimeconfig.cache
 D:\Projects\.NET\NetAng\API\NetAng.API\NetAng.API\obj\Debug\net8.0\ref\NetAng.API.dll
+D:\Projects\.NET\NetAng\API\NetAng.API\NetAng.API\obj\Debug\net8.0\NetAng.API.sourcelink.json
