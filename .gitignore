@@ -4,24 +4,24 @@ API/NetAng.API/.vs/NetAng.API/FileContentIndex/*.vsidx
 # See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
 # Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+UI/NetAng/dist
+UI/NetAng/tmp
+UI/NetAng/out-tsc
+UI/NetAng/bazel-out
 
 # Node
-/node_modules
-npm-debug.log
-yarn-error.log
+UI/NetAng/node_modules
+UI/NetAng/npm-debug.log
+UI/NetAng/yarn-error.log
 
 # IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+UI/NetAng/.idea/
+UI/NetAng/.project
+UI/NetAng/.classpath
+UI/NetAng/.c9/
+UI/NetAng/*.launch
+UI/NetAng/.settings/
+UI/NetAng/*.sublime-workspace
 
 # Visual Studio Code
 .vscode/*
@@ -29,17 +29,17 @@ yarn-error.log
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-.history/*
+UI/NetAng/.history/*
 
 # Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
+UI/NetAng/.angular/cache
+UI/NetAng/.sass-cache/
+UI/NetAng/connect.lock
+UI/NetAng/coverage
+UI/NetAng/libpeerconnection.log
+UI/NetAng/testem.log
+UI/NetAng/typings
 
 # System files
-.DS_Store
-Thumbs.db
+UI/NetAng/.DS_Store
+UI/NetAng/Thumbs.db
