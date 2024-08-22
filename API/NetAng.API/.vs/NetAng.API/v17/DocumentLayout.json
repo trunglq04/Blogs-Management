@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|d:\\projects\\.net\\netang\\api\\netang.api\\netang.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|solutionrelative:netang.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|d:\\projects\\.net\\netang\\api\\netang.api\\netang.api\\repositories\\implementation\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|solutionrelative:netang.api\\repositories\\implementation\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|d:\\projects\\.net\\netang\\api\\netang.api\\netang.api\\repositories\\interface\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|solutionrelative:netang.api\\repositories\\interface\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|d:\\projects\\.net\\netang\\api\\netang.api\\netang.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|solutionrelative:netang.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,6 +63,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "BlogPostRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Repositories\\Implementation\\BlogPostRepository.cs",
+              "RelativeDocumentMoniker": "NetAng.API\\Repositories\\Implementation\\BlogPostRepository.cs",
+              "ToolTip": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Repositories\\Implementation\\BlogPostRepository.cs",
+              "RelativeToolTip": "NetAng.API\\Repositories\\Implementation\\BlogPostRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAkwAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T17:42:52.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IBlogPostRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Repositories\\Interface\\IBlogPostRepository.cs",
+              "RelativeDocumentMoniker": "NetAng.API\\Repositories\\Interface\\IBlogPostRepository.cs",
+              "ToolTip": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Repositories\\Interface\\IBlogPostRepository.cs",
+              "RelativeToolTip": "NetAng.API\\Repositories\\Interface\\IBlogPostRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T17:42:09.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlogPostsController.cs",
+              "DocumentMoniker": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Controllers\\BlogPostsController.cs",
+              "RelativeDocumentMoniker": "NetAng.API\\Controllers\\BlogPostsController.cs",
+              "ToolTip": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Controllers\\BlogPostsController.cs*",
+              "RelativeToolTip": "NetAng.API\\Controllers\\BlogPostsController.cs*",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAiwJAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T17:40:03.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "IImageRepository.cs",
               "DocumentMoniker": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Repositories\\Interface\\IImageRepository.cs",
               "RelativeDocumentMoniker": "NetAng.API\\Repositories\\Interface\\IImageRepository.cs",
@@ -63,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ImageRepository.cs",
               "DocumentMoniker": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Repositories\\Implementation\\ImageRepository.cs",
               "RelativeDocumentMoniker": "NetAng.API\\Repositories\\Implementation\\ImageRepository.cs",
@@ -76,20 +127,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ImagesController.cs",
               "DocumentMoniker": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Controllers\\ImagesController.cs",
               "RelativeDocumentMoniker": "NetAng.API\\Controllers\\ImagesController.cs",
               "ToolTip": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Controllers\\ImagesController.cs",
               "RelativeToolTip": "NetAng.API\\Controllers\\ImagesController.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAA0wDUAAAAnAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAA0wDcAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T13:18:07.683Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "BlogImage.cs",
               "DocumentMoniker": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Models\\Domain\\BlogImage.cs",
               "RelativeDocumentMoniker": "NetAng.API\\Models\\Domain\\BlogImage.cs",

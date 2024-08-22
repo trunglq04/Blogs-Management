@@ -50,8 +50,8 @@ namespace NetAng.API.Controllers
                 // File upload 
                 var blogImage = new BlogImage
                 {
-                    FileExtension = Path.GetExtension(file.FileName).ToLower(),
                     FileName = fileName,
+                    FileExtension = Path.GetExtension(file.FileName).ToLower(),
                     Title = title,
                     DateCreated = DateTime.Now
                 };

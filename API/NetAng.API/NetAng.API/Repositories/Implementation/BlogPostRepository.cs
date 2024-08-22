@@ -11,7 +11,6 @@ namespace NetAng.API.Repositories.Implementation
 
         public BlogPostRepository(ApplicationDbContext context)
         {
-            
             _context = context;
         }
         public async Task<BlogPost> CreateAsync(BlogPost blogPost)
@@ -65,6 +64,12 @@ namespace NetAng.API.Repositories.Implementation
                 return existingBlogPost;
             }
             return null;
+        }
+
+        public async Task<BlogPost?> GetByUrlHandleAsync(string url)
+        {
+            return await _context.BlogPosts.Include(x => x.Categories)
+                .FirstOrDefaultAsync(x => x.UrlHandle == url);
         }
     }
 }

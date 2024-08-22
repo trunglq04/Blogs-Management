@@ -141,6 +141,41 @@ namespace NetAng.API.Controllers
             return Ok(response);
         }
 
+        // GET: {apibaseurl}/api/blogposts/{urlHandle}
+        [HttpGet("{urlHandle}")]
+        public async Task<IActionResult> GetBlogPostByUrl([FromRoute] string urlHandle)
+        {
+            // Get BlogPost details from repository
+            var blogPost = await blogPostRepository.GetByUrlHandleAsync(urlHandle);
+
+            if (blogPost is null)
+            {
+                return NotFound();
+            }
+
+            // Domain to DTO
+            var response = new BlogPostDto
+            {
+                Id = blogPost.Id,
+                Title = blogPost.Title,
+                ShortDescription = blogPost.ShortDescription,
+                Content = blogPost.Content,
+                FeaturedImageUrl = blogPost.FeaturedImageUrl,
+                UrlHandle = blogPost.UrlHandle,
+                PublishedDate = blogPost.PublishedDate,
+                Author = blogPost.Author,
+                IsVisible = blogPost.IsVisible,
+                Categories = blogPost.Categories.Select(c => new CategoryDto
+                {
+                    Id = c.Id,
+                    Name = c.Name,
+                    UrlHandle = c.UrlHandle
+                }).ToList()
+            };
+
+            return Ok(response);
+        }
+
         // PUT: {apibaseurl}/api/blogposts/{id}
         [HttpPut("{id:Guid}")]
         public async Task<IActionResult> UpdateBlogPostById([FromRoute] Guid id, UpdateBlogPostRequestDto request)
