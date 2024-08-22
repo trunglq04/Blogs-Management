@@ -41,7 +41,7 @@ namespace NetAng.API.Controllers
         // POST: {apibaseurl}/api/images
         [HttpPost]
         public async Task<IActionResult> UploadImage(IFormFile file,
-            [FromForm] string filename, [FromForm] string title)
+            [FromForm] string fileName, [FromForm] string title)
         {
             ValidateFileUpload(file);
 
@@ -51,7 +51,7 @@ namespace NetAng.API.Controllers
                 var blogImage = new BlogImage
                 {
                     FileExtension = Path.GetExtension(file.FileName).ToLower(),
-                    FileName = filename,
+                    FileName = fileName,
                     Title = title,
                     DateCreated = DateTime.Now
                 };

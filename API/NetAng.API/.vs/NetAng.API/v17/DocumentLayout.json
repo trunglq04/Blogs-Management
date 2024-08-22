@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|d:\\projects\\.net\\netang\\api\\netang.api\\netang.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|solutionrelative:netang.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|d:\\projects\\.net\\netang\\api\\netang.api\\netang.api\\repositories\\interface\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|solutionrelative:netang.api\\repositories\\interface\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|d:\\projects\\.net\\netang\\api\\netang.api\\netang.api\\repositories\\implementation\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|solutionrelative:netang.api\\repositories\\implementation\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|d:\\projects\\.net\\netang\\api\\netang.api\\netang.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|solutionrelative:netang.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|d:\\projects\\.net\\netang\\api\\netang.api\\netang.api\\models\\domain\\blogimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 213,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "IImageRepository.cs",
               "DocumentMoniker": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Repositories\\Interface\\IImageRepository.cs",
               "RelativeDocumentMoniker": "NetAng.API\\Repositories\\Interface\\IImageRepository.cs",
@@ -63,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ImageRepository.cs",
               "DocumentMoniker": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Repositories\\Implementation\\ImageRepository.cs",
               "RelativeDocumentMoniker": "NetAng.API\\Repositories\\Implementation\\ImageRepository.cs",
@@ -76,13 +76,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ImagesController.cs",
               "DocumentMoniker": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Controllers\\ImagesController.cs",
               "RelativeDocumentMoniker": "NetAng.API\\Controllers\\ImagesController.cs",
               "ToolTip": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Controllers\\ImagesController.cs",
               "RelativeToolTip": "NetAng.API\\Controllers\\ImagesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAgAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAA0wDUAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T13:18:07.683Z",
               "EditorCaption": ""
