@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|d:\\projects\\.net\\netang\\api\\netang.api\\netang.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|solutionrelative:netang.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|d:\\projects\\.net\\netang\\api\\netang.api\\netang.api\\repositories\\interface\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|solutionrelative:netang.api\\repositories\\interface\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|d:\\projects\\.net\\netang\\api\\netang.api\\netang.api\\repositories\\implementation\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|solutionrelative:netang.api\\repositories\\implementation\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|d:\\projects\\.net\\netang\\api\\netang.api\\netang.api\\repositories\\implementation\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|solutionrelative:netang.api\\repositories\\implementation\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|d:\\projects\\.net\\netang\\api\\netang.api\\netang.api\\models\\dto\\blogpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|solutionrelative:netang.api\\models\\dto\\blogpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|d:\\projects\\.net\\netang\\api\\netang.api\\netang.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|solutionrelative:netang.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|d:\\projects\\.net\\netang\\api\\netang.api\\netang.api\\models\\domain\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|solutionrelative:netang.api\\models\\domain\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|d:\\projects\\.net\\netang\\api\\netang.api\\netang.api\\models\\dto\\createblogpostrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|solutionrelative:netang.api\\models\\dto\\createblogpostrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|d:\\projects\\.net\\netang\\api\\netang.api\\netang.api\\models\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|solutionrelative:netang.api\\models\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|d:\\projects\\.net\\netang\\api\\netang.api\\netang.api\\models\\domain\\blogimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762847DC-9AFD-48AD-A7AA-FA66E2C7A9B5}|NetAng.API\\NetAng.API.csproj|solutionrelative:netang.api\\models\\domain\\blogimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 213,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,81 +50,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BlogPostDto.cs",
-              "DocumentMoniker": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Models\\DTO\\BlogPostDto.cs",
-              "RelativeDocumentMoniker": "NetAng.API\\Models\\DTO\\BlogPostDto.cs",
-              "ToolTip": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Models\\DTO\\BlogPostDto.cs",
-              "RelativeToolTip": "NetAng.API\\Models\\DTO\\BlogPostDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAZAAAA",
+              "DocumentIndex": 0,
+              "Title": "IImageRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Repositories\\Interface\\IImageRepository.cs",
+              "RelativeDocumentMoniker": "NetAng.API\\Repositories\\Interface\\IImageRepository.cs",
+              "ToolTip": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Repositories\\Interface\\IImageRepository.cs",
+              "RelativeToolTip": "NetAng.API\\Repositories\\Interface\\IImageRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T11:50:53.057Z",
+              "WhenOpened": "2024-08-21T15:44:48.987Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BlogPostRepository.cs",
-              "DocumentMoniker": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Repositories\\Implementation\\BlogPostRepository.cs",
-              "RelativeDocumentMoniker": "NetAng.API\\Repositories\\Implementation\\BlogPostRepository.cs",
-              "ToolTip": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Repositories\\Implementation\\BlogPostRepository.cs",
-              "RelativeToolTip": "NetAng.API\\Repositories\\Implementation\\BlogPostRepository.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA0wBwAAAAAAAAA",
+              "Title": "ImageRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Repositories\\Implementation\\ImageRepository.cs",
+              "RelativeDocumentMoniker": "NetAng.API\\Repositories\\Implementation\\ImageRepository.cs",
+              "ToolTip": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Repositories\\Implementation\\ImageRepository.cs",
+              "RelativeToolTip": "NetAng.API\\Repositories\\Implementation\\ImageRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAkwBkAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T11:50:15.363Z",
+              "WhenOpened": "2024-08-21T13:27:56.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateBlogPostRequestDto.cs",
-              "DocumentMoniker": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Models\\DTO\\CreateBlogPostRequestDto.cs",
-              "RelativeDocumentMoniker": "NetAng.API\\Models\\DTO\\CreateBlogPostRequestDto.cs",
-              "ToolTip": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Models\\DTO\\CreateBlogPostRequestDto.cs",
-              "RelativeToolTip": "NetAng.API\\Models\\DTO\\CreateBlogPostRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAgAAAA",
+              "DocumentIndex": 2,
+              "Title": "ImagesController.cs",
+              "DocumentMoniker": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Controllers\\ImagesController.cs",
+              "RelativeDocumentMoniker": "NetAng.API\\Controllers\\ImagesController.cs",
+              "ToolTip": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Controllers\\ImagesController.cs",
+              "RelativeToolTip": "NetAng.API\\Controllers\\ImagesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T11:43:37.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BlogPostsController.cs",
-              "DocumentMoniker": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Controllers\\BlogPostsController.cs",
-              "RelativeDocumentMoniker": "NetAng.API\\Controllers\\BlogPostsController.cs",
-              "ToolTip": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Controllers\\BlogPostsController.cs",
-              "RelativeToolTip": "NetAng.API\\Controllers\\BlogPostsController.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAUwF0AAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T11:43:15.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Models\\Domain\\Category.cs",
-              "RelativeDocumentMoniker": "NetAng.API\\Models\\Domain\\Category.cs",
-              "ToolTip": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Models\\Domain\\Category.cs",
-              "RelativeToolTip": "NetAng.API\\Models\\Domain\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T11:37:50.408Z",
+              "WhenOpened": "2024-08-21T13:18:07.683Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BlogPost.cs",
-              "DocumentMoniker": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Models\\Domain\\BlogPost.cs",
-              "RelativeDocumentMoniker": "NetAng.API\\Models\\Domain\\BlogPost.cs",
-              "ToolTip": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Models\\Domain\\BlogPost.cs",
-              "RelativeToolTip": "NetAng.API\\Models\\Domain\\BlogPost.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Title": "BlogImage.cs",
+              "DocumentMoniker": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Models\\Domain\\BlogImage.cs",
+              "RelativeDocumentMoniker": "NetAng.API\\Models\\Domain\\BlogImage.cs",
+              "ToolTip": "D:\\Projects\\.NET\\NetAng\\API\\NetAng.API\\NetAng.API\\Models\\Domain\\BlogImage.cs",
+              "RelativeToolTip": "NetAng.API\\Models\\Domain\\BlogImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T11:37:49.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T13:12:54.343Z"
             }
           ]
         }

@@ -19,6 +19,7 @@ namespace NetAng.API.Controllers
             this.categoryRepository = categoryRepository;
         }
 
+        // POST: {apibaseurl}/api/categories
         [HttpPost]
         public async Task<IActionResult> CreateCategory(CreateCategoryRequestDto request)
         {
@@ -42,6 +43,7 @@ namespace NetAng.API.Controllers
             return Ok(response);
         }
 
+        // GET: {apibaseurl}/api/categories
         [HttpGet]
         public async Task<IActionResult> GetAllCategories()
         {
@@ -57,6 +59,7 @@ namespace NetAng.API.Controllers
             return Ok(response);
         }
 
+        // GET: {apibaseurl}/api/categories/{id}    
         [HttpGet("{id:Guid}")]
         public async Task<IActionResult> GetCategoryById([FromRoute] Guid id)
         {
@@ -77,6 +80,7 @@ namespace NetAng.API.Controllers
             return Ok(response);
         }
 
+        // PUT: {apibaseurl}/api/categories/{id}
         [HttpPut("{id:Guid}")]
         public async Task<IActionResult> UpdateCategory([FromRoute] Guid id, UpdateCategoryRequestDto request)
         {
@@ -104,6 +108,7 @@ namespace NetAng.API.Controllers
             return Ok(response);
         }
 
+        // DELETE: {apibaseurl}/api/categories/{id}
         [HttpDelete("{id:Guid}")]
         public async Task<IActionResult> DeleteCategory([FromRoute] Guid id)
         {
