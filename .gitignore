@@ -88,8 +88,8 @@ x64/
 *.tlh
 *.tmp
 *.log
-*.vspscc
 *.vssscc
+*.sln
 .builds
 
 # Visual C++ cache files
