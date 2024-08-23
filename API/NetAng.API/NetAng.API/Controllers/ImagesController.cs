@@ -53,7 +53,7 @@ namespace NetAng.API.Controllers
                     FileName = fileName,
                     FileExtension = Path.GetExtension(file.FileName).ToLower(),
                     Title = title,
-                    DateCreated = DateTime.Now
+                    DateCreated = DateTime.UtcNow
                 };
 
                 blogImage = await imageRepository.Upload(file, blogImage);
@@ -79,7 +79,7 @@ namespace NetAng.API.Controllers
 
         private void ValidateFileUpload(IFormFile file)
         {
-            var allowedExtensions = new string[] { ".jpg", ".jpeg", ".png" };
+            var allowedExtensions = new[] { ".jpg", ".jpeg", ".png" };
 
             if (!allowedExtensions.Contains(Path.GetExtension(file.FileName.ToLower())))
             {
