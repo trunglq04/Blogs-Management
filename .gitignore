@@ -1,5 +1,6 @@
 # .gitignore
 API/NetAng.API/.vs/NetAng.API/FileContentIndex/*.vsidx
+API/NetAng.API/appsettings.json
 
 # See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 

@@ -25,7 +25,7 @@ namespace NetAng.API.Repositories.Implementation
 
         public async Task<BlogImage> Upload(IFormFile file, BlogImage blogImage)
         {
-            // 1-Upload the Image to API/Images 
+            // 1-Store the Image to API/Images 
             var localPath = Path.Combine(_webHostEnvironment.ContentRootPath,"Images", $"{blogImage.FileName}{blogImage.FileExtension}");
             using var stream = new FileStream(localPath, FileMode.Create);
             await file.CopyToAsync(stream);
