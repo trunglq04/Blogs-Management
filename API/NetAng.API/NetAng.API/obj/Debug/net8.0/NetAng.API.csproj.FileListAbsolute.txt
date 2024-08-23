@@ -135,3 +135,12 @@ D:\Projects\.NET\NetAng\API\NetAng.API\NetAng.API\obj\Debug\net8.0\NetAng.API.pd
 D:\Projects\.NET\NetAng\API\NetAng.API\NetAng.API\obj\Debug\net8.0\NetAng.API.genruntimeconfig.cache
 D:\Projects\.NET\NetAng\API\NetAng.API\NetAng.API\obj\Debug\net8.0\ref\NetAng.API.dll
 D:\Projects\.NET\NetAng\API\NetAng.API\NetAng.API\obj\Debug\net8.0\NetAng.API.sourcelink.json
+D:\Projects\.NET\NetAng\API\NetAng.API\NetAng.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Projects\.NET\NetAng\API\NetAng.API\NetAng.API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Projects\.NET\NetAng\API\NetAng.API\NetAng.API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Projects\.NET\NetAng\API\NetAng.API\NetAng.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Projects\.NET\NetAng\API\NetAng.API\NetAng.API\bin\Debug\net8.0\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+D:\Projects\.NET\NetAng\API\NetAng.API\NetAng.API\bin\Debug\net8.0\Microsoft.Configuration.ConfigurationBuilders.Json.dll
+D:\Projects\.NET\NetAng\API\NetAng.API\NetAng.API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Projects\.NET\NetAng\API\NetAng.API\NetAng.API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Projects\.NET\NetAng\API\NetAng.API\NetAng.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll

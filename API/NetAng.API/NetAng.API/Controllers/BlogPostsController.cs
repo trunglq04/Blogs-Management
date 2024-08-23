@@ -1,4 +1,5 @@
 ﻿using Azure.Core;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NetAng.API.Models.Domain;
 using NetAng.API.Models.DTO;
@@ -24,6 +25,7 @@ namespace NetAng.API.Controllers
 
         // POST: {apibaseurl}/api/blogposts
         [HttpPost]
+        [Authorize(Roles="Writer")]
         public async Task<IActionResult> CreateBlogPost([FromBody] CreateBlogPostRequestDto request)
         {
             // DTO to Domain
@@ -143,7 +145,7 @@ namespace NetAng.API.Controllers
 
         // GET: {apibaseurl}/api/blogposts/{urlHandle}
         [HttpGet("{urlHandle}")]
-        public async Task<IActionResult> GetBlogPostByUrl([FromRoute] string urlHandle)
+        public async Task<IActionResult> GetBlogPostByUrlHandle([FromRoute] string urlHandle)
         {
             // Get BlogPost details from repository
             var blogPost = await blogPostRepository.GetByUrlHandleAsync(urlHandle);
@@ -178,6 +180,7 @@ namespace NetAng.API.Controllers
 
         // PUT: {apibaseurl}/api/blogposts/{id}
         [HttpPut("{id:Guid}")]
+        [Authorize(Roles = "Writer")]
         public async Task<IActionResult> UpdateBlogPostById([FromRoute] Guid id, UpdateBlogPostRequestDto request)
         {
             // DTO to Domain
@@ -239,6 +242,7 @@ namespace NetAng.API.Controllers
 
         // DELETE: {apibaseurl}/api/blogposts/{id}
         [HttpDelete("{id:Guid}")]
+        [Authorize(Roles = "Writer")]
         public async Task<IActionResult> DeleteBlogPostById([FromRoute] Guid id)
         {
 

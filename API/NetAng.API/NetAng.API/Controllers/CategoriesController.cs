@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NetAng.API.Data;
 using NetAng.API.Models.Domain;
@@ -21,6 +22,7 @@ namespace NetAng.API.Controllers
 
         // POST: {apibaseurl}/api/categories
         [HttpPost]
+        [Authorize(Roles = "Writer")]
         public async Task<IActionResult> CreateCategory(CreateCategoryRequestDto request)
         {
             // Map DTO to Domain Model
@@ -82,6 +84,7 @@ namespace NetAng.API.Controllers
 
         // PUT: {apibaseurl}/api/categories/{id}
         [HttpPut("{id:Guid}")]
+        [Authorize(Roles = "Writer")]
         public async Task<IActionResult> UpdateCategory([FromRoute] Guid id, UpdateCategoryRequestDto request)
         {
             var category = new Category
@@ -110,6 +113,7 @@ namespace NetAng.API.Controllers
 
         // DELETE: {apibaseurl}/api/categories/{id}
         [HttpDelete("{id:Guid}")]
+        [Authorize(Roles = "Writer")]
         public async Task<IActionResult> DeleteCategory([FromRoute] Guid id)
         {
             var category = await categoryRepository.DeleteAsync(id);
