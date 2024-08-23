@@ -46,10 +46,12 @@ UI/NetAng/typings
 UI/NetAng/.DS_Store
 UI/NetAng/Thumbs.db
 
-# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+# Build Folders 
 [Bb]in/
 [Oo]bj/
 
+*AssemblyInfor.cs
+*AssemblyInforInputs.cache
 # Logs
 Logs/
 
