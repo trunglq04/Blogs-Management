@@ -32,11 +32,11 @@ export class AddCategoryComponent implements OnDestroy {
       .addCategory(this.model)
       .subscribe({
         next: (response) => {
-          console.log('This was successful!', response);
+          // console.log('This was successful!', response);
           this.router.navigateByUrl('/admin/categories');
         },
         error: (err) => {
-          console.log(err);
+          // console.log(err);
         },
       });
   }
