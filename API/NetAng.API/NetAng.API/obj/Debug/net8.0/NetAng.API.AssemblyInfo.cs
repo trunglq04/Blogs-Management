@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetAng.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5299b87be79ac193141d7a33a301bf4bdb9c799d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cda30a30e01bdb6aebb5bf109a7a05f41477107a")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetAng.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetAng.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
