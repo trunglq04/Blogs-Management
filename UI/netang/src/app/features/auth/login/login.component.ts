@@ -31,13 +31,13 @@ export class LoginComponent {
       next: (response) => {
         // Save Auth Cookie
         this.cookieService.set(
-          'Authorization',
-          `Bearer ${response.token}`,
-          undefined,
-          '/',
-          undefined,
-          true,
-          'Strict'
+          'Authorization',            // name
+          `Bearer ${response.token}`, // value
+          undefined,                  // expires
+          '/',                        // path
+          undefined,                  // domain
+          true,                       // secure
+          'Strict'                    // sameSite
         );
 
         // Set User
