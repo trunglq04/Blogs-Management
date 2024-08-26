@@ -56,6 +56,7 @@ export class AuthService {
   }
 
   logout(): void {
+    // Clear data on LocalStorage and Cookies
     localStorage.clear();
     this.cookieService.delete('Authorization', '/');
     this.$user.next(undefined);
