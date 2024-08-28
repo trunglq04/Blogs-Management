@@ -45,11 +45,13 @@ namespace NetAng.API.Controllers
             return Ok(response);
         }
 
-        // GET: {apibaseurl}/api/categories
+        // GET: {apibaseurl}/api/categories?queryName=value
         [HttpGet]
-        public async Task<IActionResult> GetAllCategories()
+        public async Task<IActionResult> GetAllCategories([FromQuery] string? query)
         {
-            var categories = await categoryRepository.GetAllAsync();
+            var categories = await categoryRepository.GetAllAsync(query);
+
+            // Domain to DTO
 
             var response = categories.Select(category => new CategoryDto
             {
@@ -131,5 +133,6 @@ namespace NetAng.API.Controllers
 
             return Ok(response);
         }
+
     }
 }
