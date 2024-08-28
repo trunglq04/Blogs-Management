@@ -20,10 +20,9 @@ export class CategoryListComponent implements OnInit {
 
   ngOnInit(): void {
     this.categories$ = this.categoryService.getAllCategories();
-    // .subscribe({
-    //   next: (response) => {
-    //     this.categories = response;
-    //   },
-    // });
+  }
+
+  onSearch(query: string) {
+    this.categories$ = this.categoryService.getAllCategories(query);
   }
 }

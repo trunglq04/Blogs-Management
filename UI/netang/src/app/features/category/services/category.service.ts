@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { AddCategoryRequest } from '../models/add-category-request.model';
 import { Category } from '../models/category.model';
 import { environment } from '../../../../environments/environment.development';
@@ -14,9 +14,18 @@ export class CategoryService {
   // Create HttpClient component for handling HTTP request through method
   constructor(private http: HttpClient, private cookieService: CookieService) {}
 
-  getAllCategories(): Observable<Category[]> {
+  getAllCategories(query?: string): Observable<Category[]> {
+    let params = new HttpParams();
+
+    if (query) {
+      params = params.set('query', query);
+    }
+
     return this.http.get<Category[]>(
-      `${environment.apiBaseUrl}/api/categories`
+      `${environment.apiBaseUrl}/api/categories`,
+      {
+        params: params,
+      }
     );
   }
 
