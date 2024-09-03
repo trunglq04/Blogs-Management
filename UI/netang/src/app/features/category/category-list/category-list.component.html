@@ -24,6 +24,7 @@
           <th>Id</th>
           <th>
             Name
+
             <span>
               <span>
                 <button type="button" class="btn btn-light" (click)="sort('name', 'asc')">
@@ -37,7 +38,22 @@
               </span>
             </span>
           </th>
-          <th>Url Handle</th>
+          <th>
+            Url Handle
+            
+            <span>
+              <span>
+                <button type="button" class="btn btn-light" (click)="sort('name', 'asc')">
+                  <i class="bi bi-arrow-up"></i>
+                </button>
+              </span>
+              <span>
+                <button type="button" class="btn btn-light ms-1" (click)="sort('name', 'desc')">
+                  <i class="bi bi-arrow-down"></i>
+                </button>
+              </span>
+            </span>
+          </th>
           <th></th>
         </tr>
       </thead>
