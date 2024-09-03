@@ -45,11 +45,13 @@ namespace NetAng.API.Controllers
             return Ok(response);
         }
 
-        // GET: {apibaseurl}/api/categories?queryName=value
+        // GET: https://localhost:7271/api/categories?query=html&sortBy=name&sortDirection=desc
         [HttpGet]
-        public async Task<IActionResult> GetAllCategories([FromQuery] string? query)
+        public async Task<IActionResult> GetAllCategories([FromQuery] string? query,
+            [FromQuery] string? sortBy,
+            [FromQuery] string? sortDirection)
         {
-            var categories = await categoryRepository.GetAllAsync(query);
+            var categories = await categoryRepository.GetAllAsync(query, sortBy, sortDirection);
 
             // Domain to DTO
 

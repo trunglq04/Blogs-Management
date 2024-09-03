@@ -5,13 +5,25 @@
 
       <form #form="ngForm" (ngSubmit)="onFormSubmit()">
         <div class="mt-3">
-          <label for="email" >Email</label>
-          <input type="text" class="form-control" name="email" id="email" [(ngModel)]="model.email">
+          <label for="email">Email</label>
+          <input
+            type="text"
+            class="form-control"
+            name="email"
+            id="email"
+            [(ngModel)]="model.email"
+          />
         </div>
 
         <div class="mt-3">
-          <label for="password" >Password</label>
-          <input type="password" class="form-control" name="password" id="password" [(ngModel)]="model.password">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            name="password"
+            id="password"
+            [(ngModel)]="model.password"
+          />
         </div>
 
         <div class="mt-3">
@@ -19,6 +31,5 @@
         </div>
       </form>
     </div>
-
   </div>
 </div>

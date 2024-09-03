@@ -10,6 +10,7 @@ export const authInterceptor: HttpInterceptorFn = (req, next) => {
   const shouldAddAuth = (url: string): boolean => {
     return url.indexOf('addAuth=true', 0) > -1;
   };
+  
   if (shouldAddAuth(req.urlWithParams)) {
     const authRequest = req.clone({
       setHeaders: {

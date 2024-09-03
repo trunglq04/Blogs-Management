@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using NetAng.API.Data;
 using NetAng.API.Models.Domain;
 using NetAng.API.Repositories.Interface;
@@ -34,7 +35,8 @@ namespace NetAng.API.Repositories.Implementation
             return null;
         }
 
-        public async Task<IEnumerable<Category>> GetAllAsync(string? query = null)
+        public async Task<IEnumerable<Category>> GetAllAsync(string? query = null,
+            string? sortBy = null, string? sortDirection = null)
         {
             // Query
             var categories = _context.Categories.AsQueryable();
@@ -45,9 +47,19 @@ namespace NetAng.API.Repositories.Implementation
                 // Due to stringComparison.OrdinalIgnoreCase, this query apply normal alphabetical search (except for Turkish)
                 // Ignore checking case and culture => upper case and lower case letters are treated as the same
                 categories = categories.Where(x => x.Name.Contains(query));
-            } 
+            }
 
             // Sorting
+            if (string.IsNullOrWhiteSpace(sortBy) == false)
+            {
+                if (string.Equals(sortBy, "Name", StringComparison.OrdinalIgnoreCase))
+                {
+                    var isAsc = string.Equals(sortDirection, "asc", StringComparison.OrdinalIgnoreCase) 
+                        ? true : false;
+
+                    categories = isAsc ? categories.OrderBy(x => x.Name) : categories.OrderByDescending(x => x.Name);
+                }
+            }
 
             // Pagination
 
