@@ -27,12 +27,20 @@
 
             <span>
               <span>
-                <button type="button" class="btn btn-light" (click)="sort('name', 'asc')">
+                <button
+                  type="button"
+                  class="btn btn-light"
+                  (click)="sort('name', 'asc')"
+                >
                   <i class="bi bi-arrow-up"></i>
                 </button>
               </span>
               <span>
-                <button type="button" class="btn btn-light ms-1" (click)="sort('name', 'desc')">
+                <button
+                  type="button"
+                  class="btn btn-light ms-1"
+                  (click)="sort('name', 'desc')"
+                >
                   <i class="bi bi-arrow-down"></i>
                 </button>
               </span>
@@ -40,15 +48,23 @@
           </th>
           <th>
             Url Handle
-            
+
             <span>
               <span>
-                <button type="button" class="btn btn-light" (click)="sort('name', 'asc')">
+                <button
+                  type="button"
+                  class="btn btn-light"
+                  (click)="sort('url', 'asc')"
+                >
                   <i class="bi bi-arrow-up"></i>
                 </button>
               </span>
               <span>
-                <button type="button" class="btn btn-light ms-1" (click)="sort('name', 'desc')">
+                <button
+                  type="button"
+                  class="btn btn-light ms-1"
+                  (click)="sort('url', 'desc')"
+                >
                   <i class="bi bi-arrow-down"></i>
                 </button>
               </span>
@@ -72,5 +88,17 @@
         </tr>
       </tbody>
     </table>
+
+    <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" (click)="getPreviousPage()">Previous</a></li>
+
+        <li *ngFor="let pageNumber of pages" class="page-item">
+          <a class="page-link" (click)="getPage(pageNumber)">{{ pageNumber }}</a>
+        </li>
+
+        <li class="page-item"><a class="page-link" (click)="getNextPage()">Next</a></li>
+      </ul>
+    </nav>
   </ng-container>
 </div>

@@ -35,8 +35,12 @@ namespace NetAng.API.Repositories.Implementation
             return null;
         }
 
-        public async Task<IEnumerable<Category>> GetAllAsync(string? query = null,
-            string? sortBy = null, string? sortDirection = null)
+        public async Task<IEnumerable<Category>> GetAllAsync(
+            string? query = null,
+            string? sortBy = null,
+            string? sortDirection = null,
+            int? pageNumber = 1,
+            int? pageSize = 100)
         {
             // Query
             var categories = _context.Categories.AsQueryable();
@@ -69,6 +73,11 @@ namespace NetAng.API.Repositories.Implementation
             }
 
             // Pagination
+            // PageNumber 1 page size 5 - skip 0, take 5
+            // PageNumber 2 page size 5 - skip 5, take 5
+            // PageNumber 3 page size 5 - skip 10, take 5
+            var skipResults = (pageNumber - 1) * pageSize;
+            categories = categories.Skip(skipResults ?? 0).Take(pageSize ?? 100);
 
             return await categories.ToListAsync();
         }
@@ -76,6 +85,11 @@ namespace NetAng.API.Repositories.Implementation
         public async Task<Category?> GetByIdAsync(Guid id)
         {
             return await _context.Categories.FirstOrDefaultAsync(category => category.Id == id);
+        }
+
+        public async Task<int> GetCount()
+        {
+            return await _context.Categories.CountAsync();
         }
 
         public async Task<Category?> UpdateAsync(Category category)

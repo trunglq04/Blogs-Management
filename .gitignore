@@ -166,3 +166,10 @@ src/.vs/config/applicationhost.config
 
 # JetBrains Rider's auto generated files
 .idea/
+UI/netang/src/environments/environment.development.ts
+UI/netang/src/environments/environment.ts
+API/NetAng.API/NetAng.API/Properties/PublishProfiles/NetAngAPI - Web Deploy.pubxml
+API/NetAng.API/NetAng.API/Properties/serviceDependencies.json
+API/NetAng.API/NetAng.API/Properties/serviceDependencies.NetAngAPI - Web Deploy.json
+API/NetAng.API/NetAng.API/Properties/ServiceDependencies/NetAngAPI - Web Deploy/profile.arm.json
+API/NetAng.API/NetAng.API/Properties/ServiceDependencies/NetAngAPI - Web Deploy/mssql1.arm.json
